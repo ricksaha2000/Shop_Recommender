@@ -1,0 +1,821 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EVENTS</title>
+
+
+    <!-- partial:index.partial.html -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+
+    <!-- using local links -->
+    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"> -->
+
+    <link rel="stylesheet" href="{% static 'css/33.css' %}">
+    <link rel="stylesheet" href="{% static 'css/34.css' %}">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Material Design Bootstrap -->
+    <link href="{% static 'css/35.css' %}" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="{% static 'css/36.css' %}" rel="stylesheet">
+    <link href="{% static 'css/37.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/38.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/39.css' %}" rel="stylesheet">
+    <link href="{% static 'css/40.css' %}" rel="stylesheet">
+    <link href="{% static 'css/41.css' %}" rel="stylesheet">
+    <link href="{% static 'css/42.css' %}" rel="stylesheet">
+    <link href="{% static 'css/43.css' %}" rel="stylesheet">
+    <link href="{% static 'css/82.css' %}" rel="stylesheet">
+            {% comment %} <script src="{% static 'css/41.js' %}"></script> {% endcomment %}
+
+
+<style>
+    .card.profile-card-2{
+
+
+    background-color:#f0f3f4;
+    height:550px;
+    width:400px;
+    margin-bottom:50px;
+
+}
+
+button {
+    background: -webkit-linear-gradient(left, #ddd6f3  0%,#faaca8 100%) !important;
+}
+
+.button  {
+  border-radius: 0.6em;
+  cursor: pointer;
+  line-height: 1;
+  margin-top:40px;
+  padding: 1.2em 2.8em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+      
+
+      .buttonss  {
+  border-radius: 0.6em;
+  cursor: pointer;
+  line-height: 1;
+  margin-top:1px;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
+
+} 
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 60vh;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+
+         nav{
+
+  background: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%) !important;
+
+
+        }
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:#fff;
+
+
+        }
+
+        .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+              color:#fff;
+        }
+.card-img-block
+{
+
+    height:140px !important;
+}
+img.img-fluid{
+
+    height:300px;
+}
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="row">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar navvy">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="/">
+                    <strong class="black-text">DATA ANALYTICS STORE</strong>
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                   <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+       
+                    </li>
+                    {% comment %} <a class="nav-link waves-effect" href="{% url 'about' %}">ABOUT
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link waves-effect" href="{% url 'communities:list' %}">COMMUNITIES
+
+                    </a>
+                    <a class="nav-link waves-effect" href="{% url 'jobs:list' %}">JOBS
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link waves-effect" href="{% url 'meetups:list' %}">MEETUPS
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link waves-effect" href="{% url 'events:list' %}">EVENTS
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    
+                    <a class="nav-link waves-effect" href="{% url 'contact' %}">CONTACTS
+                        <span class="sr-only">(current)</span>
+                    </a> {% endcomment %}
+
+                </ul>
+
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        
+                     {% comment %} <form action="{% url 'search:results' %}" method="POST" class="form-inline">{% csrf_token %} {% endcomment %}
+    {% comment %} <div class="form-group">
+        <input type="text" class="form-control mr-2" name="q" placeholder="Search..." required/>
+        <button name="submit" class="buttonss">Search</button>
+    </div> {% endcomment %}
+</form>
+                        
+
+
+                            {% comment %} {% if request.user.is_authenticated %}
+                        <li class="nav-item">
+                            <a href="{% url 'about' %}" class="nav-link waves-effect">
+                                <span class="badge red z-depth-1 mr-1"></span>
+                                <i class=""></i>
+                                <span class="clearfix d-none d-sm-inline-block"> About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="{% url 'logout' %}">
+                                <span class="clearfix d-none d-sm-inline-block">  Welcome <b>{{ request.user.username }}</b> </span>
+                            </a>
+                        </li>
+                         {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="{% url 'login' %}">
+                                <span class="clearfix d-none d-sm-inline-block"> Sign In </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="{% url 'register' %}">
+                                <span class="clearfix d-none d-sm-inline-block"> Signup </span>
+                            </a>
+                        </li>
+                               {% endif %} {% endcomment %}
+                    </ul>
+                </div>
+
+
+
+
+
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <div class="row"><br><br><br></div>
+    <div class="row">
+        <div class="page-wrapper default-theme sidebar-bg toggled">
+            <nav id="sidebar" class="sidebar-wrapper">
+                <div class="sidebar-content">
+                    <!-- sidebar-brand  -->
+                    <div class="sidebar-item sidebar-brand">
+                        <a href="#">ANALYTIC SIDEBAR</a>
+                    </div>
+                    <!-- sidebar-header  -->
+                    <div class="sidebar-item sidebar-header d-flex flex-nowrap">
+                        <div class="user-pic">
+                            <img class="img-responsive img-rounded" src="img/user.jpg" alt="User picture">
+                        </div>
+                        <div class="user-info">
+                            <span class="user-name">Jayit
+                                <strong>Saha</strong>
+                            </span>
+                            <span class="user-role">Administrator</span>
+                            <span class="user-status">
+                                <i class="fa fa-circle"></i>
+                                <span>Online</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- sidebar-search  -->
+                    <div class="sidebar-item sidebar-search">
+                        <div>
+                            <div class="input-group">
+                                <input type="text" class="form-control search-menu" placeholder="Search...">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sidebar-menu  -->
+                    <div class=" sidebar-item sidebar-menu">
+                        <ul>
+                            <li class="header-menu">
+                                <span>General</span>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="{% url 'shop:product_list' %}">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="menu-text">ALL</span>
+                                    <span class="badge badge-pill badge-warning">22</span>
+                                </a>
+                                
+                            </li>
+                            
+
+        {% for c in categories %}
+
+        <li class="sidebar-dropdown">
+                                <a href="{{ c.get_absolute_url }}">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="menu-text">{{ c.name }}</span>
+                                    <span class="badge badge-pill badge-warning">{{c.products.stock}}</span>
+                                </a>
+                                
+                            </li>
+
+        {% endfor %}
+
+                             {% comment %} <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-tachometer-alt"></i>
+                                    <span class="menu-text">HOME</span>
+                                    <span class="badge badge-pill badge-warning">New</span>
+                                </a>
+                                
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="menu-text">COMMUNITIES</span>
+                                    <span class="badge badge-pill badge-danger">3</span>
+                                </a>
+                                
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="far fa-gem"></i>
+                                    <span class="menu-text">JOBS</span>
+                                </a>
+                                
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-chart-line"></i>
+                                    <span class="menu-text">MEETUPS</span>
+                                </a>
+                                
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-globe"></i>
+                                    <span class="menu-text">EVENTS</span>
+                                </a> 
+                                 <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Google maps</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Open street map</a>
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </li> 
+                            <li class="header-menu">
+                                <span>Extra</span>
+                            </li>
+                             <li>
+                                <a href="#">
+                                     <i class="fa fa-book"></i> 
+                                    <span class="menu-text">ABOUT</span>
+                                    <span class="badge badge-pill badge-primary">Beta</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-calendar"></i>
+                                    <span class="menu-text">CONTACT</span>
+                                </a>
+                            </li>  {% endcomment %}
+                            
+                        </ul>
+                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
+                <!-- sidebar-footer  -->
+                <div class="sidebar-footer">
+                    <div class="dropdown">
+
+                        <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell"></i>
+                            <span class="badge badge-pill badge-warning notification">3</span>
+                        </a>
+                        <div class="dropdown-menu notifications" aria-labelledby="dropdownMenuMessage">
+                            <div class="notifications-header">
+                                <i class="fa fa-bell"></i>
+                                Notifications
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <div class="notification-content">
+                                    <div class="icon">
+                                        <i class="fas fa-check text-success border border-success"></i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="notification-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                        <div class="notification-time">
+                                            6 minutes ago
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="notification-content">
+                                    <div class="icon">
+                                        <i class="fas fa-exclamation text-info border border-info"></i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="notification-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                        <div class="notification-time">
+                                            Today
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="notification-content">
+                                    <div class="icon">
+                                        <i class="fas fa-exclamation-triangle text-warning border border-warning"></i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="notification-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                        <div class="notification-time">
+                                            Yesterday
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-center" href="#">View all notifications</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-envelope"></i>
+                            <span class="badge badge-pill badge-success notification">7</span>
+                        </a>
+                        <div class="dropdown-menu messages" aria-labelledby="dropdownMenuMessage">
+                            <div class="messages-header">
+                                <i class="fa fa-envelope"></i>
+                                Messages
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <div class="message-content">
+                                    <div class="pic">
+                                        <img src="img/user.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="message-title">
+                                            <strong> Jhon doe</strong>
+                                        </div>
+                                        <div class="message-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                    </div>
+                                </div>
+
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="message-content">
+                                    <div class="pic">
+                                        <img src="img/user.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="message-title">
+                                            <strong> Jhon doe</strong>
+                                        </div>
+                                        <div class="message-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                    </div>
+                                </div>
+
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="message-content">
+                                    <div class="pic">
+                                        <img src="img/user.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <div class="message-title">
+                                            <strong> Jhon doe</strong>
+                                        </div>
+                                        <div class="message-detail">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. In totam explicabo</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-center" href="#">View all messages</a>
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-cog"></i>
+                            <span class="badge-sonar"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
+                            <a class="dropdown-item" href="#">My profile</a>
+                            <a class="dropdown-item" href="#">Help</a>
+                            <a class="dropdown-item" href="#">Setting</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div>
+                    <div class="pinned-footer">
+                        <a href="#">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!-- page-content  -->
+            <main class="page-content pt-2">
+                <div id="overlay" class="overlay"></div>
+                <div class="container-fluid p-5">
+                    <div class="row">
+
+
+                        <!--INSERT CONTENT-->
+                        <div class="form-group col-md-12">
+                            <a id="toggle-sidebar" class="btn btn-secondary rounded-0" href="#">
+                                <span>Toggle Sidebar</span>
+                            </a>
+                            <a id="pin-sidebar" class="btn btn-outline-secondary rounded-0" href="#">
+                                <span>Pin Sidebar</span>
+                            </a>
+                            
+                            {% comment %} <a id="#" class="btn btn-outline-secondary rounded-0"  href="#">
+                                <span>ADD EVENT</span>
+                            </a> {% endcomment %}
+
+
+                        </div>
+                    </div>
+                    <hr>
+                    <!--
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <h3>Themes</h3>
+                        <p>Here are more themes that you can use</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <a href="#" data-theme="default-theme" class="theme default-theme selected"></a>
+                        <a href="#" data-theme="chiller-theme" class="theme chiller-theme"></a>
+                        <a href="#" data-theme="legacy-theme" class="theme legacy-theme"></a>
+                        <a href="#" data-theme="ice-theme" class="theme ice-theme"></a>
+                        <a href="#" data-theme="cool-theme" class="theme cool-theme"></a>
+                        <a href="#" data-theme="light-theme" class="theme light-theme"></a>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <p>You can also use background image </p>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <a href="#" data-bg="bg1" class="theme theme-bg selected"></a>
+                        <a href="#" data-bg="bg2" class="theme theme-bg"></a>
+                        <a href="#" data-bg="bg3" class="theme theme-bg"></a>
+                        <a href="#" data-bg="bg4" class="theme theme-bg"></a>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="toggle-bg" checked>
+                            <label class="custom-control-label" for="toggle-bg">Background image</label>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="toggle-border-radius">
+                            <label class="custom-control-label" for="toggle-border-radius">Border radius</label>
+                        </div>
+                    </div>
+
+                </div>
+-->
+
+
+                    <hr>
+
+                    <!--MODALS START-->
+
+                    
+
+
+
+
+
+                    <!--                MODAL END-->
+
+                    <!--
+                    <div id="modal-info" class="modal modal-message modal-info fade" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="modal-title">Alert</div>
+                                <div class="modal-body">
+-->
+
+
+
+                    <!--
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+-->
+
+
+
+
+
+
+
+
+    
+
+                    
+                    <div class="row">
+        {% for product in products %}
+
+                        <div class="col-4">
+
+                            <div class="card profile-card-2 toggle">
+                                <div class="card-img-block">
+                                   <a href="{{ product.get_absolute_url }}"> <img class="img-fluid" src="https://images.pexels.com/photos/870903/pexels-photo-870903.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Card image cap"></a>
+                                </div>
+                                <div class="card-body pt-5">
+                                    {% comment %} <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="profile-image" class="profile" /> {% endcomment %}
+                                    <h5 class="card-title">{{ product.name }}</h5>
+                                    <h5 class="card-title">{{ product.price }}</h5>
+
+                                    <p class="card-text">{{product.description|truncatechars:10}}</p>
+                                    <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><button class="button" data-toggle="modal" data-target="#modal-info"><a href="{{ product.get_absolute_url }}">CHECK IT OUT</button></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        
+                                          
+  
+
+{% endfor %}
+<br><br>
+</div>
+
+
+
+
+
+                    
+
+
+
+
+            
+            </main>
+            
+            
+            <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+                <!--Call to action-->
+                <div class="pt-4">
+                    <a class="btn btn-outline-white" href="" target="_blank" role="button">
+                        <i class="fas fa-download ml-2"></i>
+                    </a>
+                    <a class="btn btn-outline-white" href="" target="_blank" role="button">
+                        <i class="fas fa-graduation-cap ml-2"></i>
+                    </a>
+                </div>
+                <!--/.Call to action-->
+
+                <hr class="my-4">
+
+                <!-- Social icons -->
+                <div class="pb-4">
+                    <a href="" target="_blank">
+                        <i class="fab fa-facebook-f mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-twitter mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-youtube mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-google-plus-g mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-dribbble mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-pinterest mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-github mr-3"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="fab fa-codepen mr-3"></i>
+                    </a>
+                </div>
+                <!-- Social icons -->
+
+                <div class="footer-copyright py-3">
+                    <a href="" target="_blank"> WOW.com </a>
+                </div>
+
+            </footer>
+
+           
+            
+            <!-- page-content" -->
+        </div>
+        </div>
+
+
+
+
+
+
+            <!--Footer-->
+            
+            <!--/.Footer-->
+
+            <!-- SCRIPTS -->
+            <!-- JQuery -->
+            <!--    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>-->
+            <!-- Bootstrap tooltips -->
+            <!--    <script type="text/javascript" src="js/popper.min.js"></script>-->
+            <!-- Bootstrap core JavaScript -->
+            <script type="text/javascript" src="{% static 'js/37.js' %}"></script>
+            <!-- MDB core JavaScript -->
+            <script type="text/javascript" src="{% static 'js/38.js' %}"></script>
+            <!-- Initializations -->
+            <script type="text/javascript">
+                // Animations initialization
+                new WOW().init();
+
+            </script>
+
+            <script type="text/javascript" src="{% static 'js/39.js' %}"></script>
+
+            <script type="text/javascript" src="{% static 'js/40.js' %}"></script>
+
+            <script src="{% static 'js/41.js' %}"></script>
+            <script src="{% static 'js/42.js' %}"></script>
+
+
+            <script type="text/javascript">
+                $('.minus-btn').on('click', function(e) {
+                    e.preventDefault();
+                    var $this = $(this);
+                    var $input = $this.closest('div').find('input');
+                    var value = parseInt($input.val());
+
+                    if (value > 1) {
+                        value = value - 1;
+                    } else {
+                        value = 0;
+                    }
+
+                    $input.val(value);
+
+                });
+
+                $('.plus-btn').on('click', function(e) {
+                    e.preventDefault();
+                    var $this = $(this);
+                    var $input = $this.closest('div').find('input');
+                    var value = parseInt($input.val());
+
+                    if (value < 100) {
+                        value = value + 1;
+                    } else {
+                        value = 100;
+                    }
+
+                    $input.val(value);
+                });
+
+                $('.like-btn').on('click', function() {
+                    $(this).toggleClass('is-active');
+                });
+
+            </script>
+
+
+
+
+</body>
+
+</html>

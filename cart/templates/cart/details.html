@@ -1,0 +1,258 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="shortcut icon" href="img/fav.png">
+
+<meta name="author" content="CodePixar">
+
+<meta name="description" content="">
+
+<meta name="keywords" content="">
+
+<meta charset="UTF-8">
+
+<title>Karma Shop</title>
+
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/linearicons.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/owl.carousel.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/themify-icons.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/nice-select.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/nouislider.min.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/bootstrap.css">
+<link rel="stylesheet" href="https://colorlib.com/preview/theme/karma/css/main.css">
+<link rel="stylesheet" href="{% static 'css/33.css' %}">
+    <link rel="stylesheet" href="{% static 'css/34.css' %}">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Material Design Bootstrap -->
+    <link href="{% static 'css/35.css' %}" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="{% static 'css/36.css' %}" rel="stylesheet">
+    <link href="{% static 'css/37.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/38.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/39.css' %}" rel="stylesheet">
+    <link href="{% static 'css/40.css' %}" rel="stylesheet">
+    <link href="{% static 'css/41.css' %}" rel="stylesheet">
+    <link href="{% static 'css/42.css' %}" rel="stylesheet">
+    <link href="{% static 'css/43.css' %}" rel="stylesheet">
+    <link href="{% static 'css/82.css' %}" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<header class="header_area sticky-header">
+{% comment %} <div class="main_menu">
+<nav class="navbar navbar-expand-lg navbar-light main_box">
+<div class="container">
+
+<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+<ul class="nav navbar-nav menu_nav ml-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item submenu dropdown active">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
+<li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
+<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
+<li class="nav-item active"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
+</ul>
+</li>
+<li class="nav-item submenu dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+</ul>
+</li>
+<li class="nav-item submenu dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
+<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+<li class="nav-item">
+<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<div class="search_input" id="search_input_box">
+<div class="container">
+<form class="d-flex justify-content-between">
+<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+<button type="submit" class="btn"></button>
+<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+</form>
+</div>
+</div> {% endcomment %}
+</header>
+
+
+<section class="banner-area organic-breadcrumb">
+<div class="container">
+<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+<div class="col-first">
+<h1>Shopping Cart</h1>
+<nav class="d-flex align-items-center">
+<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+<a href="category.html">Cart</a>
+</nav>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Product</th>
+<th scope="col">Quantity</th>
+<th scope="col">Remove</th>
+<th scope="col">Unit Price</th>
+<th scope="col">Price</th>
+</tr>
+</thead>
+
+
+<tbody>
+{% for item in cart %}
+{% with product=item.product %}
+<tr>
+<td>
+<div class="media">
+<div class="d-flex">
+{% comment %} <img src="{{ product.image.url }}" alt=""> {% endcomment %}
+</div>
+<div class="media-body">
+<p>{{ product.name }}</p>
+</div>
+</div>
+</td>
+<td>
+<h5>{{ item.quantity }}</h5>
+</td>
+
+<td>
+<a href="{% url "cart:cart_remove" product.id %}">Remove</a></td>
+<td>
+<h5>Rs.{{ item.price }}</h5>
+</td>
+<td>
+<h5>Rs.{{ item.total_price }}</h5>
+</td>
+</tr>
+
+{% endwith %}
+{% endfor %}
+<tr>
+<td></td><td></td>
+<td></td>
+<td></td>
+
+<td>
+<h5>Rs.{{ cart.get_total_price }}</h5>
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div>
+</section>
+
+<div class="row">
+						{% for p in recommended_products %}
+
+                        <div class="col-4">
+<div class="card profile-card-2 toggle">
+                                <div class="card-img-block">
+                                   <a href="{{ product.get_absolute_url }}"> <img class="img-fluid" src="https://images.pexels.com/photos/870903/pexels-photo-870903.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Card image cap"></a>
+                                </div>
+                                <div class="card-body pt-5">
+                                    {% comment %} <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="profile-image" class="profile" /> {% endcomment %}
+                                    <h5 class="card-title">{{ p.name }}</h5>
+                                    <h5 class="card-title">{{ p.price }}</h5>
+
+                                    <p class="card-text">{{p.description|truncatechars:20}}</p>
+                                    <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><button class="button" data-toggle="modal" data-target="#modal-info"><a href="{{ p.get_absolute_url }}">CHECK NOW</button></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        
+                                          
+  
+
+{% endfor %}
+<br><br>
+</div>
+
+							
+<footer class="footer-area section_gap">
+
+
+</footer>
+
+<script src="js/vendor/jquery-2.2.4.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/vendor/bootstrap.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/jquery.ajaxchimp.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/jquery.nice-select.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/jquery.sticky.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/nouislider.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/jquery.magnific-popup.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/gmaps.min.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script src="js/main.js" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="cf91b4856fcba0b503a2bb8d-text/javascript"></script>
+<script type="cf91b4856fcba0b503a2bb8d-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="cf91b4856fcba0b503a2bb8d-|49" defer=""></script></body>
+</html>

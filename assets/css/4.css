@@ -1,0 +1,159 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+*:hover {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/*Profile card 2*/
+.profile-card-2 {
+    float: left;
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+    justify-content: space-between;
+
+
+}
+
+
+.card-img-block {
+    float: left;
+    width: 1500px;
+    height: 230px;
+
+}
+
+.profile-card-2 .card-body {
+    position: relative;
+    width: 50%;
+}
+
+.profile-card-2 .profile {
+    border-radius: 50%;
+    position: absolute;
+    top: -82px;
+    margin-top: 50px;
+    left: 15%;
+    max-width: 75px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.profile-card-2 h5 {
+    font-weight: 600;
+    color: #6ab04c;
+}
+
+.profile-card-2 .card-text {
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.profile-card-2 .icon-block {
+    float: left;
+    width: 100%;
+}
+
+.profile-card-2 .icon-block a {
+    text-decoration: none;
+}
+
+.profile-card-2 i {
+    display: inline-block;
+    font-size: 16px;
+    color: #6ab04c;
+    text-align: center;
+    border: 1px solid #6ab04c;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.profile-card-2 i:hover {
+    background-color: #6ab04c;
+    color: #fff;
+}
+
+.card-body.pt-5 {
+
+    width: 300px;
+    margin-bottom: 250px;
+
+}
+
+.what {
+
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+.carousel-inner {
+    justify-content: space-between;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.slide-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .slide-box img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: .5rem;
+}
+
+
+
+.row.1 {
+
+
+    justify-content: flex-end;
+
+}
